@@ -1,0 +1,34 @@
+{
+  "name": "@anio-core-sh/nodejs-find-nearest-file",
+  "version": "0.0.1",
+  "description": "Find a file (usually configuration) nearest to a specified path.",
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "./build.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./async": {
+      "require": "./dist/async.cjs",
+      "import": "./dist/async.mjs"
+    },
+    "./sync": {
+      "require": "./dist/sync.cjs",
+      "import": "./dist/sync.mjs"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.6.0"
+  }
+}

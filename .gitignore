@@ -1,0 +1,9 @@
+/node_modules/
+/package-lock.json
+.DS_Store
+
+/auto.src/*
+/dist/*
+
+!/auto.src/.gitkeep
+!/dist/.gitkeep
