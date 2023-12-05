@@ -1,6 +1,6 @@
 {
   "name": "@anio-core-sh/nodejs-find-nearest-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Find a file (usually configuration) nearest to a specified path.",
   "main": "./src/index.mjs",
   "scripts": {
